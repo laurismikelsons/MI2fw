@@ -1,0 +1,51 @@
+{
+  "name": "pwf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scheme": "pwf",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "overrides": {
+    "metro": "0.76.3",
+    "metro-resolver": "0.76.3"
+  },
+  "dependencies": {
+    "@databases/expo": "^5.0.0",
+    "@expo/webpack-config": "^18.0.1",
+    "@react-navigation/native": "^6.1.6",
+    "@types/react": "~18.0.27",
+    "@unimodules/core": "^7.1.2",
+    "@unimodules/react-native-adapter": "^6.3.9",
+    "deprecated-react-native-prop-types": "^2.2.0",
+    "expo": "~48.0.15",
+    "expo-asset": "~8.9.1",
+    "expo-constants": "~14.2.1",
+    "expo-file-system": "~15.2.2",
+    "expo-linking": "~4.0.1",
+    "expo-router": "^1.7.0",
+    "expo-splash-screen": "~0.18.2",
+    "expo-status-bar": "~1.4.4",
+    "paper": "^0.12.17",
+    "react": "18.2.0",
+    "react-native": "0.71.7",
+    "react-native-paper": "^5.7.0",
+    "react-native-safe-area-context": "^4.5.1",
+    "react-native-screens": "~3.20.0",
+    "react-native-sqlite-storage": "^6.0.1",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-web": "~0.18.10",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "web": {
+    "bundler": "metro",
+    "favicon": "./assets/favicon.png"
+  },
+  "private": true
+}
